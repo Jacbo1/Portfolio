@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- Metadata -->
+		<meta charset="utf-8">
+		<meta name="description" content="Jacob Brandt Portfolio">
+		<meta name="keywords" content="Jacob Brandt, Portfolio">
+		<meta name="author" content="Jacob Brandt">
+		<Title>Portfolio - Jacob Brandt</Title>
+		<link rel="stylesheet" href="styles.css">
+		<link rel="icon" href="/Portfolio/resource/logo.png">
+		<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+		<script type="text/javascript">
+			emailjs.init('1CERJoHJdNR40xRuH')
+		</script>
+	</head>
+
+    <body>
+		<div id="leftbar">
+			<div style="width:100%">
+				<p class="tcenter">Jacob Brandt</p>
+				<a class="sidebarlink" href="#projects">Personal projects</a>
+				<a class="sidebarlink" href="#contact">Contact</a>
+			</div>
+		</div>
+		<div id="rightpanel">
+			<h1 class="title">About</h1>
+			<p class="tcenter">I am a C# and Java developer with some experience with Lua, HTML, and CSS who makes projects in my free time.</p>
+
+			<h1 id="projects" class="title">Personal Projects</h1>
+			<div id="content">
+				<div class="col">
+					<div class="listitem">
+						<div class="header">
+							<h2>Progrimage - Image Editor</h2>
+							<span class="lang">C#</span>
+						</div>
+						<p>A basic image editor focused on providing an easy to use and versatile scripting environment targeted towards users with at least an intermediate knowledge of coding.
+							Users can create their own tools or procedural, non-destructive image filters called composites.
+							The program is available on <a href="https://github.com/Jacbo1/Progrimage">GitHub</a>.</p>
+						<div class="hr"></div>
+						<div class="media" style="aspect-ratio: 1920 / 1080">
+							<div class="mcenter">
+								<iframe class="media" style="aspect-ratio: 1920 / 1080" src="https://www.youtube.com/embed/uSaQBk6_q1U" title="Progrimage Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+							</div>
+						</div>
+					</div>
+					<div class="listitem">
+						<div class="header">
+							<h2>Verlet Integration Balls</h2>
+							<span class="lang">C#</span>
+						</div>
+						<p>Verlet Integration physics simulating hundreds of balls that form an image.</p>
+						<div class="hr"></div>
+						<div class="media" style="aspect-ratio: 1024 / 1024">
+							<div class="mcenter">
+								<video autoplay muted loop controls src="/Portfolio/media/verlet balls.mp4" type="video/mp4">Your browser does not support video.</video>
+							</div>
+						</div>
+					</div>
+					<div class="listitem">
+						<div class="header">
+							<h2>MS Painter</h2>
+							<span class="lang">Java</span>
+						</div>
+						<p>A Java program made in high school which takes in an image then takes control of the mouse and keyboard to draw it in Microsoft Paint.</p>
+						<div class="hr"></div>
+						<div class="media" style="aspect-ratio: 1200 / 1030">
+							<div class="mcenter">
+								<video autoplay muted loop controls src="/Portfolio/media/painter.mp4" type="video/mp4">Your browser does not support video.</video>
+							</div>
+						</div>
+					</div>
+					<div class="listitem">
+						<div class="header">
+							<h2>Image Drawer</h2>
+							<span class="lang">Java</span>
+						</div>
+						<p>Personal project done in high school that finds the edges of an image then draws them.</p>
+						<div class="hr"></div>
+						<div class="media" style="aspect-ratio: 1920 / 1080">
+							<div class="mcenter">
+								<iframe class="media" style="aspect-ratio: 1920 / 1080" src="https://www.youtube.com/embed/LM7sLN7Ow90" title="Java Image Outliner" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+							</div>
+						</div>
+					</div>
+					<div class="listitem">
+						<div class="header">
+							<h2>Basic Ray Tracer</h2>
+							<span class="lang">C#</span>
+						</div>
+						<p>A basic ray tracer made in C#.</p>
+						<div class="hr"></div>
+						<div class="media" style="aspect-ratio: 1920 / 1080">
+							<img class="media" src="/Portfolio/media/ray tracer.png">
+						</div>
+						<div class="media" style="aspect-ratio: 1920 / 1080">
+							<div class="mcenter">
+								<video autoplay muted loop controls src="/Portfolio/media/reflective.mp4" type="video/mp4">Your browser does not support video.</video>
+							</div>
+						</div>
+					</div>
+					<div class="listitem">
+						<div class="header">
+							<h2>Convoy Save Manager</h2>
+							<span class="lang">C#</span>
+						</div>
+						<p>A program made to allow having multiple saves in a game called Convoy.
+							It detects when the game's save file is changed and makes a copy.
+							It stores up to 50 saves and deletes the oldest ones when a new one is made.</p>
+						<div class="hr"></div>
+						<div class="media" style="aspect-ratio: 802 / 482">
+							<img class="media" src="/Portfolio/media/convoy save manager.png">
+						</div>
+					</div>
+					<div class="listitem">
+						<div class="header">
+							<h2>Keyboard Recorder</h2>
+							<span class="lang">Java</span>
+						</div>
+						<p>Keyboard display that accepts any image as the keyboard background and masks it. It has two modes: recording and overlay.
+							When recording, it has an interface where you can start a new recording and it runs in the backgorund recording timestamps for keyboard input.
+							When finished recording, the user can render the recording as a sequence of png files with the selected background image.
+							In overlay mode, the display is drawn over all other windows and keys can be selected to be shown.</p>
+						<div class="hr"></div>
+						<div class="media" style="aspect-ratio: 937 / 264">
+							<img class="media" src="/Portfolio/media/keyboard recorder.gif">
+						</div>
+					</div>
+				</div>
+
+				<div class="col">
+					<div class="listitem">
+						<div class="header">
+							<h2>Rimworld Mod File Manager</h2>
+							<span class="lang">C#</span>
+						</div>
+						<p>A program I made (left) because I disliked occasionally having to sort through mod files for a game called Rimworld.
+							There are a lot of mods I have made edits to or removed files from to be replaced by other mods and when the mods update, they undo my work.
+							This program allows me to track multiple mod directories and accept or discard changes when they occur.
+							The benefits of using this over git is that it has a GUI and there is no unnecessary version control history past the most recent state which saves storage when dealing with several hundred megabytes of images.</p>
+						<div class="hr"></div>
+						<div class="media" style="aspect-ratio: 1920 / 1080">
+							<div class="mcenter">
+								<video autoplay muted loop controls src="/Portfolio/media/rw tex manager.mp4" type="video/mp4">Your browser does not support video.</video>
+							</div>
+						</div>
+					</div>
+					<div class="listitem">
+						<div class="header">
+							<h2>Verlet Integration Rope</h2>
+							<span class="lang">Java</span>
+						</div>
+						<p>A real-time interactable rope simulation with collisions done from scratch. The user can draw and cut ropes as well as pin nodes in the rope.</p>
+						<div class="hr"></div>
+						<div class="media" style="aspect-ratio: 1920 / 1080">
+							<div class="mcenter">
+								<video autoplay muted loop controls src="/Portfolio/media/rope.mp4" type="video/mp4">Your browser does not support video.</video>
+							</div>
+						</div>
+					</div>
+					<div class="listitem">
+						<div class="header">
+							<h2>Lights</h2>
+							<span class="lang">C#</span>
+						</div>
+						<p>A C# simulation with lights moving around a surface with a normal map generated from Perlin Noise. Phong is also rendered from the lights.</p>
+						<div class="hr"></div>
+						<div class="media" style="aspect-ratio: 1920 / 1080">
+							<div class="mcenter">
+								<video autoplay muted loop controls src="/Portfolio/media/lights.mp4" type="video/mp4">Your browser does not support video.</video>
+							</div>
+						</div>
+					</div>
+					<div class="listitem">
+						<div class="header">
+							<h2>Flashcards</h2>
+							<span class="lang">Java</span>
+						</div>
+						<p>A flashcard program I made to help me study.
+							It shows the front of the card and when clicked, it shows the back along with confidence choices.
+							You answer how well you think you know the back side given the front.
+							Lower confidence answers will make the card have a higher probability of being shown again and answering with full confidence will remove the card from the queue.
+							The blue bar at the top is the progress bar. It is based off of the confidence answers for all the cards in the deck.
+							The bar under that tracks how many cards there are in each confidence category.</p>
+						<div class="hr"></div>
+						<div class="media" style="aspect-ratio: 1920 / 1080">
+							<div class="mcenter">
+								<video autoplay muted loop controls src="/Portfolio/media/flashcards.mp4" type="video/mp4">Your browser does not support video.</video>
+							</div>
+						</div>
+					</div>
+					<div class="listitem">
+						<div class="header">
+							<h2>Calculator</h2>
+							<span class="lang">C#</span>
+						</div>
+						<p>A calculator that updates as you type.
+							It optionally shows work, supports numbers, vectors, binary, hexadecimal, and scientific notation, can output as a normal number, fraction, scientific notation, hexadecimal, binary, and has a wide array of functions such as summation, rounding, clamp, and more.
+							It also accepts certain constants like pi and e. The user can assign numbers or vectors to variables too.
+							Internally, numbers are represented by fractions and can be extremely large or small without having floating point precision loss.
+							Nearly all functions work on both vectors and numbers.
+							On vectors, the function is applied to each component.
+							The app is available on <a href="https://github.com/Jacbo1/Calculator">GitHub</a>.
+							There is also a library version for use in other projects where the implementing code can just have it try to calculate a number value from a string which is avalable <a href="https://github.com/Jacbo1/Calculator-Library">here</a>.
+						</p>
+						<div class="hr"></div>
+						<div class="media" style="aspect-ratio: 812 / 598">
+							<div class="mcenter">
+								<video autoplay muted loop controls src="/Portfolio/media/calculator.mp4" type="video/mp4">Your browser does not support video.</video>
+							</div>
+						</div>
+					</div>
+					<div class="listitem">
+						<div class="header">
+							<h2>CE Redef</h2>
+							<span class="lang">C#</span>
+						</div>
+						<p>A program made to redefine stats in over 2000 xml files for a game mod called Combat Extended.
+							This program is available on <a href="https://github.com/Jacbo1/CE-Redef">GitHub</a>.
+							It allows the user to multiply certain numeric values in the xml files that affect items in-game.</p>
+						<div class="hr"></div>
+						<div class="media" style="aspect-ratio: 802 / 482">
+							<img class="media" src="/Portfolio/media/ce redef.png">
+						</div>
+					</div>
+					<div class="listitem">
+						<div class="header">
+							<h2>Backup Tool</h2>
+							<span class="lang">C#</span>
+						</div>
+						<p>A quick and simple backup tool.
+							Directories or files can be dragged onto the columns or paths can be entered as text at the top.
+							The program checks if files in the directories in the left list are newer than those in the right list then copies to their corresponding place in the directory in the right list.</p>
+						<div class="hr"></div>
+						<div class="media" style="aspect-ratio: 695 / 474">
+							<img class="media" src="/Portfolio/media/backup.png">
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<h1 id="contact" class="title">Contact</h1>
+			<div class="container">
+				<p>Looking for a back-end developer position in New York State</p>
+				<p>Skillset:</p>
+				<ul>
+					<li>C#</li>
+					<li>Java</li>
+					<li>Lua</li>
+				</ul>
+
+				<form id="contactform">
+					<h3>Contact Me</h3>
+					<p>Email: <a href="mailto:contactjacobbrandt@gmail.com">contactjacobbrandt@gmail.com</a></p>
+					<div>
+						<span>Name: </span>
+						<input type="text" id="from_name" name="from_name" placeholder="Name (required)" required />
+						<span class="required"></span>
+						<span>Email: </span>
+						<input type="text" id="reply_to" name="reply_to" placeholder="Email (required)" required />
+						<span class="required"></span>
+					</div>
+					<span class="required">Message:</span>
+					<br>
+					<textarea id="message" name="message" placeholder="Message (required)" rows="10" required> </textarea>
+					<div style="position: relative">
+						<p id="submitsuccess" class="emailstatus">Email submitted</p>
+						<p id="submitfail" class="emailstatus">Email failed to submit</p>
+						<div class="ccenter">
+							<input class="formbutton" type="submit" />
+							<input class="formbutton" type="reset" value="Clear" />
+						</div>
+					</div>
+				</form>
+				<script src="contact.js"></script>
+			</div>
+		</div>
+		<script src="gradient_hover.js"></script>
+	</body>
+</html>
