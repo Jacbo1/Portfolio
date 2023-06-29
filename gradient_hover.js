@@ -62,11 +62,3 @@ function addGradients(items, idPrefix) {
 
 addGradients(document.getElementsByClassName("listitem"), "listitem")
 addGradients(document.getElementsByClassName("container"), "container")
-
-// {
-// 	let styleTag = document.createElement("style")
-// 	styleTag.innerHTML += "\n#name{background: linear-gradient(" + (Math.random() * 360) + "deg,#a6edff,#e8cae8);"
-// 	styleTag.innerHTML += "-webkit-background-clip: text;"
-// 	styleTag.innerHTML += "-webkit-text-fill-color: transparent;}"
-// 	document.head.appendChild(styleTag)
-// }

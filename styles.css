@@ -1,5 +1,4 @@
 :root {
-	/* --list-item-height: 30rem; */
 	--list-item-rounding: 1rem;
 	--list-item-padding: calc(var(--list-item-rounding) / 2.8284271247);
 	--media-height: 30rem;
@@ -81,10 +80,6 @@ div.col {
 
 div.listitem {
 	margin-top: 1rem;
-	/* margin: 1rem; */
-	/* height: var(--list-item-height); */
-	/* width: calc(100% - 4rem - var(--list-item-padding) * 2); */
-	/* width: calc(50% - 6rem - var(--list-item-padding) * 4); */
 	width: calc(100% - var(--list-item-padding) * 2);
 	padding: var(--list-item-padding);
 	border-radius: var(--list-item-rounding);
@@ -196,10 +191,7 @@ textarea {
 div.ccenter {
 	display: inline-block;
 	margin-left: 50%;
-	/* top: 0;
-	left: 50%; */
 	translate: -50% 0;
-	/* position: absolute; */
 }
 
 .formbutton {
@@ -212,7 +204,6 @@ div.ccenter {
 	padding: 0.75rem 2rem;
 	font-size: 1rem;
 	transition: background-color 0.25s;
-	/* position: absolute; */
 }
 
 .formbutton:hover {
@@ -228,7 +219,6 @@ div.ccenter {
 	left: 0;
 	border-radius: calc(var(--list-item-rounding) - var(--list-item-padding));
 	padding: var(--list-item-padding);
-	/* margin-top: calc(var(--list-item-padding) * 3); */
 	display: inline-block;
 }
 
